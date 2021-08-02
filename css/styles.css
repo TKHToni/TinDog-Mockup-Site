@@ -1,0 +1,237 @@
+/*-------------------------- Element Selectors------------------------------ */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/*----------------------------------Titles -----------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*------------------------------ Section Colors------------------------------ */
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*-------------------------------------------------------------------------- */
+/*------------------------------ Title Section------------------------------ */
+
+.title-section-div {
+  padding: 3% 15%;
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+.navbar-div {
+  padding-left: 0;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.intro-column-text {
+  text-align: left;
+}
+
+.intro-title {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.iphone-mockup {
+  margin-top: 40px;
+  width: 60%;
+  transform: rotate(20deg);
+  position: relative;
+  z-index: 0;
+}
+
+.download-button {
+  margin-right: 8px;
+  margin-top: 30px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*------------------------------Features Section----------------------------- */
+
+#features {
+  padding: 10% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-titles {
+  font-size: 1.5rem;
+}
+
+.features-paragraph {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  font-size: 7rem;
+  color: #ef8172;
+  margin: 10% 34%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* --------------------------------------------------------------------------*/
+/*------------------------------ Testimonials Section----------------------- */
+
+#testimonials {
+  background-color: #ef8172;
+  line-height: 2;
+}
+
+.testimonial-header {
+  line-height: 2;
+  font-size: 2.5rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*------------------------------ Press Section ------------------------------*/
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.logos {
+  width: 15%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ---------------------------Pricing Section------------------------------- */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 12px 12px;
+}
+
+.pricing-plans-titles {
+  font-size: 1.5rem;
+}
+
+.pricing-header {
+  line-height: 2;
+  font-size: 2.5rem;
+}
+
+.pricing-plans-values {
+  line-height: 2;
+  font-size: 2.5rem;
+}
+
+.pricing-paragraphs {
+  line-height: 2;
+  color: #8f8f8f;
+}
+
+.button-wrap {
+  padding-top: 48px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------CTA Section-------------------------------- */
+
+.cta-header {
+  padding-top: 50px;
+  margin: 0 380px;
+  line-height: 2;
+  font-size: 2rem;
+}
+
+.cta-download {
+  margin: 50px 10px;
+}
+
+/* ------------------------------------------------------------------------- */
+/*------------------------------ Footer Section -----------------------------*/
+
+#footer {
+  padding-top: 110px;
+}
+
+.f-paragraph {
+  padding: 15px 0;
+  color: #8f8f8f;
+}
+
+.f-anchor {
+  padding: 0 10px;
+  margin-top: 50px;
+  color: black;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------For Mobile and tablets--------------------- */
+
+@media (max-width: 1200px) {
+
+  .intro-columns {
+    width: 100%;
+    height: auto;
+  }
+
+  .iphone-mockup {
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
